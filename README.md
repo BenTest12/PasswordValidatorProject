@@ -9,3 +9,7 @@ Run my scripts accordingly , either PS1 or SH.
 ```bash
 ./password-validator.sh "T3st!"
 ```
+
+```powershell
+./password-validator.ps1 "T3st!"
+```
