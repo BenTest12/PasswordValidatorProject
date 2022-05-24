@@ -24,5 +24,5 @@ Bash
 ```
 Powershell
 ```powershell
-./password-validator.sh -f "/mypath/password.txt"
+./password-validator.ps1 -f "/mypath/password.txt"
 ```
