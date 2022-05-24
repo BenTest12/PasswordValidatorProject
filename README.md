@@ -15,3 +15,14 @@ Powershell
 ```powershell
 ./password-validator.ps1 "T3st!"
 ```
+
+## Run with files
+
+Bash
+```bash
+./password-validator.sh -f "/mypath/password.txt"
+```
+Powershell
+```powershell
+./password-validator.sh -f "/mypath/password.txt"
+```
