@@ -7,8 +7,8 @@
 password=$1
 
 # Colors for messages
-Green='\033[0;32m' 
-Red='\033[0;31m' 
+Green='\033[0;32m'
+Red='\033[0;31m'
 
 # Clear screen
 clear
@@ -20,7 +20,7 @@ len="${#password}"
 if test $len -ge 10 ; then
     echo "$password" | grep -q [0-9]
     if test $? -eq 0 ; then
-        echo "$password" | grep -q [A-Z]
+      echo "$password" | grep -q [A-Z]
         if test $? -eq 0 ; then
             echo "$password" | grep -q [a-z]
             if test $? -eq 0 ; then
