@@ -25,7 +25,6 @@ clear
 
 # Validate password length.
 len="${#password}"
-
 # Testing and validations.
 if test $len -ge 10 ; then
     echo "$password" | grep -q [0-9]
