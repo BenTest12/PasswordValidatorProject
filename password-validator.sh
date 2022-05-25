@@ -18,7 +18,8 @@ while getopts "f:" OPTION; do
                 password=$(<$OPTARG)
                 ;;
         esac
-done        
+done
+
 # Clear screen
 clear
 
