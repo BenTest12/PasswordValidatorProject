@@ -10,9 +10,17 @@ password=$1
 Green='\033[0;32m' 
 Red='\033[0;31m' 
 
+# Read password from file.
+
+while getopts "f:" OPTION; do
+        case "$OPTION" in
+                f)
+                password=$(<$OPTARG)
+                ;;
+        esac
+done        
 # Clear screen
 clear
-
 # Validate password length.
 len="${#password}"
 
