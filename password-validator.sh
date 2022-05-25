@@ -16,16 +16,6 @@ clear
 # Validate password length.
 len="${#password}"
 
-# Read password from file.
-
-while getopts "f:" OPTION; do
-        case "$OPTION" in
-                f)
-                password=$(<$OPTARG)
-                ;;
-        esac
-done
-
 # Testing and validations.
 if test $len -ge 10 ; then
     echo "$password" | grep -q [0-9]
