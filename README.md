@@ -1,10 +1,10 @@
-# PasswordValidatorProject
+# Task-Generator Script
 
-This is my password validator script project
+This is my Task-Generator Script project
 
 ## Usage
 
-Bash
-```bash
-./password-validator.sh "T3st!"
+Powershell
+```powershell
+./Task-Generator.ps1 -TaskName "MyName" -TriggerSeconds “60” -WaitSeconds "120”
 ```
